@@ -224,5 +224,6 @@ variable "permissions_boundary" {
 
 variable "enable_docker_bridge" {
   description = "Restores the docker default bridge network."
+  type        = "string"
   default     = "false"
 }
