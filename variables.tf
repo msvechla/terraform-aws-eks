@@ -221,3 +221,8 @@ variable "permissions_boundary" {
   description = "If provided, all IAM roles will be created with this permissions boundary attached."
   default     = ""
 }
+
+variable "enable_docker_bridge" {
+  description = "Restores the docker default bridge network."
+  default     = "false"
+}
